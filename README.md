@@ -7,7 +7,7 @@ if an offset of 0x2000 is not specified.
 https://www.hackster.io/nicola-wrachien posted a helpful tutorial on unbricking the SAMD21, using a uChip as a host.
 </br>
 </br>
-That project was easily converted to use an MKR1000 as a host. And the result is this repository, which includes the Eagle brd file needed to 
+That project was easily converted to use an MKR1000 as a host. The result is this repository, which includes the Eagle brd file needed to 
 produce a PCB, as well as the Arduino sketch that the MKR1000 host can use to flash the bricked MKR1000.
 </br>
 </br>
