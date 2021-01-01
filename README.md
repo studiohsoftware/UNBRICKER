@@ -1,4 +1,4 @@
-# DEBRICKER
+# UNBRICKER
 # Unbrick an Arduino MKR1000 using another MKR1000.
 Problem: The SAMD21 bootloader is in flash at address 0x0000, and can be blown away using a firmware flashing utility like bossac, 
 if an offset of 0x2000 is not specified.
