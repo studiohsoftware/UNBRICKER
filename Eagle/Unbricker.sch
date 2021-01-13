@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="11" fill="1" visible="no" active="no"/>
@@ -1606,11 +1606,11 @@ MKR1000</text>
 </net>
 <net name="VCC" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="10"/>
-<wire x1="208.28" y1="177.8" x2="246.38" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="177.8" x2="246.38" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="182.88" x2="246.38" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="E"/>
 <label x="220.98" y="177.8" size="1.778" layer="95"/>
+<pinref part="J2" gate="G$1" pin="12"/>
+<wire x1="208.28" y1="182.88" x2="246.38" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D12" class="0">
